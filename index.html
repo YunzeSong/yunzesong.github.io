@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yunze Song</title>
+  <meta name="description" content="Academic homepage of Yunze Song." />
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-top">
+      <div>
+        <h1 class="name">Yunze Song</h1>
+      </div>
+
+      <button class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+        ◐
+      </button>
+    </div>
+
+    <nav class="nav">
+      <a href="#publications">Publications</a>
+      <a href="#education">Education</a>
+      <a href="#internships">Internships</a>
+    </nav>
+  </header>
+
+  <main id="content" class="container">
+    <section class="section intro" aria-label="About">
+      <p class="lead">
+        Greetings! I am Yunze Song, a graduate student at the National University of Singapore and a research intern at Tencent.
+      </p>
+
+      <div class="meta">
+        <div class="meta-row">
+          <span class="meta-label">Email</span>
+          <span class="meta-value">YunzeSong77 [at] gmail.com</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">Links</span>
+          <span class="meta-value">
+            <a href="https://github.com/YunzeSong" rel="noopener">GitHub</a> ·
+            <a href="https://scholar.google.com/citations?user=qOQwD7UAAAAJ" rel="noopener">Google Scholar</a>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+      <article class="paper">
+        <div class="paper-left">
+          <div class="badge">ICLR 2026</div>
+
+          <div class="thumb">
+            <img class="paper-figure" src="./assets/trustjudge.jpg" alt="TrustJudge figure" loading="lazy">
+          </div>
+        </div>
+
+        <div class="paper-right">
+          <h3 class="paper-title">
+            TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them
+          </h3>
+
+          <p class="paper-links">
+            <a href="https://arxiv.org/pdf/2509.21117.pdf" rel="noopener">Paper</a>
+            <span class="sep">·</span>
+            <a href="https://github.com/TrustJudge/TrustJudge" rel="noopener">Code</a>
+            <span class="sep">·</span>
+            <img class="inline-badge" alt="GitHub Repo stars"
+                src="https://img.shields.io/github/stars/TrustJudge/TrustJudge?style=social&label=Stars" />
+          </p>
+
+          <p class="authors">
+            Yidong Wang*, <strong>Yunze Song*</strong>, Tingyuan Zhu, Xuanwang Zhang...
+          </p>
+
+          <p class="abstract">
+            We identify two fundamental inconsistencies in LLM-as-a-judge evaluation: Score-Comparison inconsistency and Pairwise
+            Transitivity inconsistency. We propose TrustJudge, a probabilistic framework with distribution-sensitive scoring and
+            likelihood-aware aggregation to alleviate these issues and improve reliability of automated assessment.
+          </p>
+        </div>
+      </article>
+
+      <article class="paper">
+        <div class="paper-left">
+          <div class="badge">EMNLP 2024</div>
+          <div class="thumb" aria-hidden="true">
+            <img class="paper-figure" src="./assets/raglab.jpg" alt="RAGLAB figure" loading="lazy">
+          </div>
+        </div>
+
+        <div class="paper-right">
+          <h3 class="paper-title">
+            RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation
+          </h3>
+
+          <p class="paper-links">
+            <a href="https://arxiv.org/pdf/2408.11381" rel="noopener">Paper</a>
+            <span class="sep">·</span>
+            <a href="https://github.com/fate-ubw/RAGLAB" rel="noopener">Code</a>
+            <span class="sep">·</span>
+            <img class="inline-badge" alt="GitHub Repo stars"
+                 src="https://img.shields.io/github/stars/fate-ubw/RAGLAB?style=social&label=Stars" />
+          </p>
+
+          <p class="authors">
+            Xuanwang Zhang*, <strong>Yunze Song*</strong>, Yidong Wang, Shuyun Tang...
+          </p>
+
+          <p class="abstract">
+            Two major obstacles hinder RAG's progress: (1) lack of thorough and fair comparisons between emerging RAG algorithms;
+            (2) high-level abstractions in open-source tools reduce transparency and limit innovation. We introduce RAGLAB, a modular,
+            research-focused open-source library that replicates existing algorithms and provides an ecosystem for exploring RAG techniques,
+            enabling fair comparisons across benchmarks.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li>
+          <span class="time">2025.01 – 2027.02</span>
+          <span class="item">M.Sc. in Robotics<br>
+            <a href="https://nus.edu.sg/" rel="noopener">National University of Singapore </a> (Singapore)</span>
+        </li>
+        <li>
+          <span class="time">2019.09 – 2023.07</span>
+          <span class="item">
+            B.Sc. in Computer Science and Technology<br>
+            <a href="https://www.xjtlu.edu.cn/zh" rel="noopener">Xi'an Jiaotong-Liverpool University</a> (China)<br>
+            <a href="https://www.liverpool.ac.uk/" rel="noopener">University of Liverpool</a> (United Kingdom)
+          </span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="internships" class="section">
+      <h2>Internships</h2>
+      <ul class="timeline">
+        <li><span class="time">2025.12 – now</span> <span class="item">Research Intern, Tencent</span></li>
+        <li><span class="time">2023.11 – 2024.11</span> <span class="item">Research Intern, Peking University</span></li>
+        <li><span class="time">2023.05 – 2023.09</span> <span class="item">Research Intern, Westlake University</span></li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>
+        © <span id="year"></span> Yunze Song
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
